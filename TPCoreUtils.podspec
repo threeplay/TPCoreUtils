@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
 
   s.swift_version = '4.1'
   s.platform = :osx
-  s.osx.deployment_target = "10.10"
-  s.source_files = 'TPCoreUtils/Classes/**/*'
+  s.osx.deployment_target = "10.13"
+  s.source_files = 'TPCoreUtils/Classes/*'
 end
