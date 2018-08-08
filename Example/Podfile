@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPCoreUtils_Example' do
+  pod 'TPCoreUtils', :path => '../'
+
+  target 'TPCoreUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
