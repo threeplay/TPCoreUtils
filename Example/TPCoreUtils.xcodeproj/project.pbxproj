@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		12256862109056CF66871629 /* Pods_TPCoreUtils_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3C7ED3A365B2213FAF4AC5 /* Pods_TPCoreUtils_Example.framework */; };
 		54E28CBB65C97FCE4B709DC9 /* Pods_TPCoreUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6BB2EF95E3DF2371D0EA3B /* Pods_TPCoreUtils_Tests.framework */; };
+		B78C335C211AD79F00185B2D /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C335B211AD79F00185B2D /* StringTests.swift */; };
+		B78C335E211AD84000185B2D /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C335D211AD84000185B2D /* DictionaryTests.swift */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		61F12C97FC15BB3830843903 /* Pods-TPCoreUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPCoreUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPCoreUtils_Example/Pods-TPCoreUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6AAF6F4DA089C261154A9E62 /* Pods-TPCoreUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPCoreUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPCoreUtils_Tests/Pods-TPCoreUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		90AFF8350708305B668AC027 /* Pods-TPCoreUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPCoreUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPCoreUtils_Example/Pods-TPCoreUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B78C335B211AD79F00185B2D /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		B78C335D211AD84000185B2D /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
 		BA2DA9FECAE79F11444FF3A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D019BEDA2BE2B501073B5C49 /* TPCoreUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPCoreUtils.podspec; path = ../TPCoreUtils.podspec; sourceTree = "<group>"; };
 		D8F34247BF860DC2DEDA04BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 			children = (
 				ED83F68E20348A760038D96B /* ArrayTests.swift */,
 				ED83F69020348A760038D96B /* Info.plist */,
+				B78C335B211AD79F00185B2D /* StringTests.swift */,
+				B78C335D211AD84000185B2D /* DictionaryTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -312,7 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78C335C211AD79F00185B2D /* StringTests.swift in Sources */,
 				ED83F68F20348A760038D96B /* ArrayTests.swift in Sources */,
+				B78C335E211AD84000185B2D /* DictionaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
