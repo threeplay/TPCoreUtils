@@ -186,12 +186,20 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C20CD4F994189F6EB0E697A8D07EA6A0 /* TPCoreUtils */ = {
+		B78C335F211ADC7A00185B2D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				B78C3356211AD33E00185B2D /* Array+Helpers.swift */,
 				B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */,
 				B78C3355211AD33E00185B2D /* String+Helpers.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C20CD4F994189F6EB0E697A8D07EA6A0 /* TPCoreUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B78C335F211ADC7A00185B2D /* Classes */,
 				8D8EED3FC91BCF8BB484F29E9EAE73DD /* Pod */,
 				45B82703F197789CA23AC96601AB3B77 /* Support Files */,
 			);
