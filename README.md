@@ -1,6 +1,6 @@
 # TPCoreUtils
 
-[![CI Status](https://img.shields.io/travis/Eliran Ben-Ezra/TPCoreUtils.svg?style=flat)](https://travis-ci.org/Eliran Ben-Ezra/TPCoreUtils)
+[![CI Status](https://img.shields.io/travis/threeplay/TPCoreUtils.svg?style=flat)](https://travis-ci.org/threeplay/TPCoreUtils)
 [![Version](https://img.shields.io/cocoapods/v/TPCoreUtils.svg?style=flat)](https://cocoapods.org/pods/TPCoreUtils)
 [![License](https://img.shields.io/cocoapods/l/TPCoreUtils.svg?style=flat)](https://cocoapods.org/pods/TPCoreUtils)
 [![Platform](https://img.shields.io/cocoapods/p/TPCoreUtils.svg?style=flat)](https://cocoapods.org/pods/TPCoreUtils)
@@ -22,7 +22,7 @@ pod 'TPCoreUtils'
 
 ## Author
 
-Eliran Ben-Ezra, eliran@gc.io
+Eliran Ben-Ezra, eliran@threeplay.com
 
 ## License
 
