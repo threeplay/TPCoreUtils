@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Extensions to swift stdlib
+  Threeplay's library of core extensions to swift stdlib. Used by other threeplay frameworks
                        DESC
 
   s.homepage         = 'https://github.com/threeplay/TPCoreUtils'
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.author           = { 'Eliran Ben-Ezra' => 'eliran@threeplay.com' }
   s.source           = { :git => 'https://github.com/threeplay/TPCoreUtils.git', :tag => s.version.to_s }
 
+  s.swift_version = '4.1'
   s.platform = :osx
   s.osx.deployment_target = "10.10"
-
   s.source_files = 'TPCoreUtils/Classes/**/*'
 end

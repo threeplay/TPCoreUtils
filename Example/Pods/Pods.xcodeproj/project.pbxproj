@@ -11,10 +11,12 @@
 		4756A91A06A31B497F7BD03BBAD69396 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
 		47D4271BE3D48125B754D108972383A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
 		6CE1B769454FC5BE383FB8E6335D05C4 /* Pods-TPCoreUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6BEA6942FB02682B772BA8EE00DB3A /* Pods-TPCoreUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		704AB583717B96E94BB146425CB93F60 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FC8F90B476F1558B616C6B66CEC058 /* ReplaceMe.swift */; };
 		7D0E7C5332A1EBCAEBB90BDC56968A9E /* TPCoreUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 529EC50E63B907BEB44C60F5EAAB35B1 /* TPCoreUtils-dummy.m */; };
 		9BA5BD1343E3984EAB8A2D8149CD6BF2 /* Pods-TPCoreUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 606A0623B4157577E8E4FB3AF60B0A03 /* Pods-TPCoreUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2C5A0315FE1F0BA621EF2DA58753806 /* Pods-TPCoreUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB1230C0A003A58278ECCC1BF2F51F9 /* Pods-TPCoreUtils_Example-dummy.m */; };
+		B78C3358211AD33E00185B2D /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C3355211AD33E00185B2D /* String+Helpers.swift */; };
+		B78C3359211AD33E00185B2D /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C3356211AD33E00185B2D /* Array+Helpers.swift */; };
+		B78C335A211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */; };
 		ECCFB81E03735895C652CD946AAFC03C /* Pods-TPCoreUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2BB85AA3ABEFB42B2E1150FD5D4A2 /* Pods-TPCoreUtils_Tests-dummy.m */; };
 		EEDFF5C495EF957E5C98405A9C091FB9 /* TPCoreUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D5C22F42B8222535FD8673AFE6A1A2 /* TPCoreUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -37,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07FC8F90B476F1558B616C6B66CEC058 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TPCoreUtils/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		19F57B6A082B404350B66379B7FDE082 /* Pods_TPCoreUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPCoreUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9FC397D62D68753384BEC95FA6C8A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FDAD72CFE7CAB439752DCE62F93B4C /* Pods-TPCoreUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPCoreUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -60,6 +61,9 @@
 		96D5C22F42B8222535FD8673AFE6A1A2 /* TPCoreUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPCoreUtils-umbrella.h"; sourceTree = "<group>"; };
 		A7174603DA8E0F5AE9680AA7FFC38225 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACEDBE189A5DC59A84ABEDF779E1F35F /* Pods-TPCoreUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPCoreUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B78C3355211AD33E00185B2D /* String+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
+		B78C3356211AD33E00185B2D /* Array+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
+		B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+ImmutableHelpers.swift"; sourceTree = "<group>"; };
 		BA540F55473BB03CB4B4926139DBC77F /* Pods-TPCoreUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPCoreUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD02F2C7CC3A2C7B64E149B8C6BE1AED /* TPCoreUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPCoreUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6196E95E74001D7804F460AD45CE71 /* Pods-TPCoreUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPCoreUtils_Tests.modulemap"; sourceTree = "<group>"; };
@@ -185,7 +189,9 @@
 		C20CD4F994189F6EB0E697A8D07EA6A0 /* TPCoreUtils */ = {
 			isa = PBXGroup;
 			children = (
-				07FC8F90B476F1558B616C6B66CEC058 /* ReplaceMe.swift */,
+				B78C3356211AD33E00185B2D /* Array+Helpers.swift */,
+				B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */,
+				B78C3355211AD33E00185B2D /* String+Helpers.swift */,
 				8D8EED3FC91BCF8BB484F29E9EAE73DD /* Pod */,
 				45B82703F197789CA23AC96601AB3B77 /* Support Files */,
 			);
@@ -317,7 +323,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704AB583717B96E94BB146425CB93F60 /* ReplaceMe.swift in Sources */,
+				B78C335A211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift in Sources */,
 				7D0E7C5332A1EBCAEBB90BDC56968A9E /* TPCoreUtils-dummy.m in Sources */,
+				B78C3358211AD33E00185B2D /* String+Helpers.swift in Sources */,
+				B78C3359211AD33E00185B2D /* Array+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +683,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
