@@ -1,0 +1,22 @@
+{
+  "name": "TPCoreUtils",
+  "version": "0.1.0",
+  "summary": "A short description of TPCoreUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Eliran Ben-Ezra/TPCoreUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Eliran Ben-Ezra": "eliran@gc.io"
+  },
+  "source": {
+    "git": "https://github.com/Eliran Ben-Ezra/TPCoreUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "TPCoreUtils/Classes/**/*"
+}

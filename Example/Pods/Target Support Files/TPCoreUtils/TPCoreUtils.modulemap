@@ -1,0 +1,6 @@
+framework module TPCoreUtils {
+  umbrella header "TPCoreUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

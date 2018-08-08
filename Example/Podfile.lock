@@ -1,0 +1,16 @@
+PODS:
+  - TPCoreUtils (0.1.0)
+
+DEPENDENCIES:
+  - TPCoreUtils (from `../`)
+
+EXTERNAL SOURCES:
+  TPCoreUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPCoreUtils: e15d5bbaa79bbe80b03ef2f971d8cabb5fa07e05
+
+PODFILE CHECKSUM: e6ed02dc6974ecd94618d4a3168b76d8ff2db628
+
+COCOAPODS: 1.5.3

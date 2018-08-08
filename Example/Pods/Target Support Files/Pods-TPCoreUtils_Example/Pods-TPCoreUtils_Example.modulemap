@@ -1,0 +1,6 @@
+framework module Pods_TPCoreUtils_Example {
+  umbrella header "Pods-TPCoreUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
