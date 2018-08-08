@@ -14,9 +14,6 @@
 		7D0E7C5332A1EBCAEBB90BDC56968A9E /* TPCoreUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 529EC50E63B907BEB44C60F5EAAB35B1 /* TPCoreUtils-dummy.m */; };
 		9BA5BD1343E3984EAB8A2D8149CD6BF2 /* Pods-TPCoreUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 606A0623B4157577E8E4FB3AF60B0A03 /* Pods-TPCoreUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2C5A0315FE1F0BA621EF2DA58753806 /* Pods-TPCoreUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB1230C0A003A58278ECCC1BF2F51F9 /* Pods-TPCoreUtils_Example-dummy.m */; };
-		B78C3358211AD33E00185B2D /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C3355211AD33E00185B2D /* String+Helpers.swift */; };
-		B78C3359211AD33E00185B2D /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C3356211AD33E00185B2D /* Array+Helpers.swift */; };
-		B78C335A211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */; };
 		ECCFB81E03735895C652CD946AAFC03C /* Pods-TPCoreUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2BB85AA3ABEFB42B2E1150FD5D4A2 /* Pods-TPCoreUtils_Tests-dummy.m */; };
 		EEDFF5C495EF957E5C98405A9C091FB9 /* TPCoreUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D5C22F42B8222535FD8673AFE6A1A2 /* TPCoreUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -61,9 +58,7 @@
 		96D5C22F42B8222535FD8673AFE6A1A2 /* TPCoreUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPCoreUtils-umbrella.h"; sourceTree = "<group>"; };
 		A7174603DA8E0F5AE9680AA7FFC38225 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACEDBE189A5DC59A84ABEDF779E1F35F /* Pods-TPCoreUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPCoreUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B78C3355211AD33E00185B2D /* String+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
-		B78C3356211AD33E00185B2D /* Array+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
-		B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+ImmutableHelpers.swift"; sourceTree = "<group>"; };
+		B78C3360211ADDA500185B2D /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = TPCoreUtils/Classes; sourceTree = "<group>"; };
 		BA540F55473BB03CB4B4926139DBC77F /* Pods-TPCoreUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPCoreUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD02F2C7CC3A2C7B64E149B8C6BE1AED /* TPCoreUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPCoreUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6196E95E74001D7804F460AD45CE71 /* Pods-TPCoreUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPCoreUtils_Tests.modulemap"; sourceTree = "<group>"; };
@@ -186,20 +181,10 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B78C335F211ADC7A00185B2D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B78C3356211AD33E00185B2D /* Array+Helpers.swift */,
-				B78C3357211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift */,
-				B78C3355211AD33E00185B2D /* String+Helpers.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		C20CD4F994189F6EB0E697A8D07EA6A0 /* TPCoreUtils */ = {
 			isa = PBXGroup;
 			children = (
-				B78C335F211ADC7A00185B2D /* Classes */,
+				B78C3360211ADDA500185B2D /* Classes */,
 				8D8EED3FC91BCF8BB484F29E9EAE73DD /* Pod */,
 				45B82703F197789CA23AC96601AB3B77 /* Support Files */,
 			);
@@ -357,10 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78C335A211AD33E00185B2D /* Dictionary+ImmutableHelpers.swift in Sources */,
 				7D0E7C5332A1EBCAEBB90BDC56968A9E /* TPCoreUtils-dummy.m in Sources */,
-				B78C3358211AD33E00185B2D /* String+Helpers.swift in Sources */,
-				B78C3359211AD33E00185B2D /* Array+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
