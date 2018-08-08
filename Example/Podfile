@@ -5,7 +5,7 @@ target 'TPCoreUtils_Example' do
 
   target 'TPCoreUtils_Tests' do
     inherit! :search_paths
-
-    
+    pod 'TPCoreUtils', :path => '../'
+    pod 'Nimble', '~> 7.0.2'
   end
 end

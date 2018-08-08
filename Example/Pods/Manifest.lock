@@ -1,16 +1,23 @@
 PODS:
+  - Nimble (7.0.3)
   - TPCoreUtils (0.1.0)
 
 DEPENDENCIES:
+  - Nimble (~> 7.0.2)
   - TPCoreUtils (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
 
 EXTERNAL SOURCES:
   TPCoreUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TPCoreUtils: e15d5bbaa79bbe80b03ef2f971d8cabb5fa07e05
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  TPCoreUtils: 48785a61b9f9d3ffd207998ea50a9f0b308076fd
 
-PODFILE CHECKSUM: e6ed02dc6974ecd94618d4a3168b76d8ff2db628
+PODFILE CHECKSUM: 323936a65ff274906aa39f5311777b69abd570f7
 
 COCOAPODS: 1.5.3
